@@ -1,2 +1,7 @@
-//Ecrire un message dans la console du navigateur
-console.log("Mon message dans la console");
+//Stocker les informations d'un étudiant
+let nom = "BYTYQI ";
+let prenom = "Genis ";
+let civilite = "Mr. ";
+let age = new Date().getFullYear() - 2001;
+let section = "BTS SIO";
+console.log(civilite + nom + prenom);
